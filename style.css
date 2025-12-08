@@ -10,6 +10,12 @@ body {  /*Mặc định, mọi trình duyệt (Chrome, Firefox, Edge…) đều 
     margin: 0;
     padding: 0;
 }
+.logo{
+    display: flex;
+    width: 75px;
+    height: 50px;
+    gap:20px
+}
 
 .nut{
     background-color:blue;
@@ -42,8 +48,25 @@ a{
     
    
 }
-img{
-    float: right;
-    margin-right: 350px;
+
+
+.container{
+    display: flex;
+   
+   width:100%;
+ 
+  
+}
+
+.container div{
+    background-color: lightgray;
+    padding:40px;
+    margin:10px
+    
+}
+.pre{
+    padding :10px 20px;
+    background-color: rgb(237, 5, 5);
+    color: white;
 }
 
